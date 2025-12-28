@@ -1,0 +1,50 @@
+{
+  "name": "shop-admin-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web --port 8081"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/bottom-tabs": "^7.9.0",
+    "@react-navigation/native": "^7.1.26",
+    "@react-navigation/stack": "^7.6.13",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "expo": "~54.0.30",
+    "expo-av": "~16.0.8",
+    "expo-image-picker": "^17.0.10",
+    "expo-location": "~19.0.8",
+    "expo-speech": "~14.0.8",
+    "expo-status-bar": "~3.0.9",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "lodash": "^4.17.21",
+    "multer": "^2.0.2",
+    "mysql2": "^3.16.0",
+    "puppeteer": "^24.34.0",
+    "qrcode": "^1.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "15.12.1",
+    "react-native-vector-icons": "^10.3.0",
+    "react-native-web": "^0.21.0",
+    "uuid": "^13.0.0",
+    "xml2js": "^0.6.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2",
+    "eas-cli": "^16.28.0"
+  }
+}
